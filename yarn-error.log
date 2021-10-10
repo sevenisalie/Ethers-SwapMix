@@ -1,0 +1,37 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn add ethers
+
+PATH: 
+  /Users/nolanterry/google-cloud-sdk/bin:/opt/anaconda3/condabin:/Library/Frameworks/Python.framework/Versions/3.9/bin:/Library/Frameworks/Python.framework/Versions/3.8/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  16.11.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/nolanterry/Desktop/ETHERSJAM/package.json: Unexpected token } in JSON at position 109
+      at JSON.parse (<anonymous>)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/lib/node_modules/yarn/lib/cli.js:310:30)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "ETHERSJAM",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "type": "module",
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
